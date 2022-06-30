@@ -1,0 +1,33 @@
+.collapse-navbar-collapse {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25 px;
+}
+
+.container-fluid a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+.text-under-carousel {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.text-under-carousel h2 {
+    font-weight: bold;
+}
+
+.keyboard-cards {
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 75px;
+    row-gap: 100px;
+}
