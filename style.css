@@ -23,11 +23,78 @@
 
 .keyboard-cards {
     margin: auto;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 100px 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     column-gap: 75px;
     row-gap: 100px;
+}
+
+.keyboard-cards p {
+    text-align: center;
+}
+
+.footer {
+    background-color: darkgray;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer--contact{
+    list-style: none;
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.icon__footer{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer--logo{
+    width: auto;
+}
+
+.footer--logo a{
+    margin: auto;
+}
+
+.logo__footer{
+    width: 80px;
+    height: 50px;
+}
+
+.footer--info{
+    list-style: none;
+    position: relative;
+    right: 0%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.info__footer{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer--logo p {
+    text-decoration: none;
 }
